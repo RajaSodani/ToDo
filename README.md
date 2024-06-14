@@ -7,7 +7,7 @@ Re-commit as previous repo is removed
 https://to-do-rs.vercel.app/
 
 
-#### ***Testing Guidelines***
+# ***Testing Guidelines***
 
 
 ### Functional Testing
