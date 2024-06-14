@@ -23,8 +23,8 @@ function App() {
 					</div>
 				}
 			>
-{/* 				<Route path="" element={<Navigate to="todos" />} /> */}
-				<Route path="" element={<Todos />} />
+				<Route path="" element={<Navigate to="todos" /> <Todos />} />
+{/* 				<Route path="" element={} /> */}
 				<Route path="share" element={<Share />} />
 			</Route>,
 		),
