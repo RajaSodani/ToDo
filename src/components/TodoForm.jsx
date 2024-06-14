@@ -20,6 +20,8 @@ function TodoForm() {
 						if (e.key == "Enter") {
 							content !== "" ? addTodo(content) : "";
 							setContent("");
+							if(content==="") alert('Task cannot be empty');
+
 						}
 					}}
 				/>
