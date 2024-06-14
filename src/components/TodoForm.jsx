@@ -20,7 +20,6 @@ function TodoForm() {
 						if (e.key == "Enter") {
 							content !== "" ? addTodo(content) : "";
 							setContent("");
-							if(content==="") alert('Task cannot be empty');
 
 						}
 					}}
@@ -31,6 +30,7 @@ function TodoForm() {
 						e.preventDefault();
 						content !== "" ? addTodo(content) : "";
 						setContent("");
+						if(content==="") alert('Task cannot be empty');
 					}}
 				>
 					<svg
